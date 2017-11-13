@@ -36,13 +36,18 @@ nav h2{
   font-family: Lato;
 }
 
+img{
+  position: absolute;
+  width: 100%;
+  margin-left:530px;
+ 
+}
+
 .btn{ /* boton añadir una lista */
   background-color:#026AA7;
   color: white;
   border: none;
-  margin-top: 50px;
-  margin-left: 30px;
-  width: 150px;
+  width: 300px;
   height: 35px;
   font-family: Lato;
   font-weight: 700;
@@ -51,6 +56,8 @@ nav h2{
   outline: none;
   text-align: left;
   padding-left: 9px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
   
 }
 
@@ -67,11 +74,11 @@ background-color: rgba(180, 194, 225, 0.8) ;
 
 .box{   /*estilo para contenedor del input y boton */
   margin-left: 30px;
-  background-color: #DDD;
-  width: 270px;
+  width: 300px;
   height: 90px;
-  border-radius: 4px;
+  border-radius: 6px;
   margin-top: 10px;
+  margin-left: 0px;
 }
 
 
@@ -85,13 +92,13 @@ background-color: rgba(180, 194, 225, 0.8) ;
   font-weight: 700;
   font-size: 90%;
   display: block;
-  margin-top: 3px;
+  margin-top: 5px;
   margin-left: 4px;
   border-radius: 4px;
 }
 
 .entrada{ /* propiedades del input */
-  width: 240px;
+  width: 272px;
   height: 35px;
   margin: 4px;
   border-radius: 3px;
@@ -101,8 +108,8 @@ background-color: rgba(180, 194, 225, 0.8) ;
 }
 
 h1{
-  width: 250px;
-  margin-left: 30px;
+  width: 280px;
+  margin-left: 0px;
   margin-top: -80px;
   background-color: #EEE;
   padding: 2px 10px;
@@ -115,16 +122,16 @@ h1{
   text-decoration: underline;
   width: 120px;
   height: 35px;
-  margin-left: 35px;
+  margin-left: 0px;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .texto{
   display: block;
-  margin-left: 32px;
-  margin-top: 60px;
-  width: 260px;
+  margin-left: 5px;
+  margin-top: 20px;
+  width: 280px;
   height: 80px;
   border-radius: 3px;
 }
@@ -133,8 +140,9 @@ h1{
   background-color:#026AA7;
   color: white;
   border: none;
-  margin-left: 33px;
+  margin-left: 6px;
   margin-top: 10px;
+  margin-bottom: 10px;
   width: 55px;
   height: 30px;
   font-family: Lato;
@@ -144,10 +152,18 @@ h1{
 p{
   font-family: Lato;
   font-weight: 700;
-  font-size: 110%;
-  margin-left: 40px;
+  font-size: 120%;
+  margin-left: 20px;
   color: #444;
   margin-top: 20px;
+}
+
+.contenedor{
+  background-color: #DDD;
+  width: 300px;
+  margin-top: 35px;
+  margin-left:30px;
+  border-radius: 6px;
 }
 
 
